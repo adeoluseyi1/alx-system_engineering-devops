@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod "$ref_mode" hello
+chmod --refernce=olleh hello
