@@ -1,9 +1,2 @@
 #!/bin/bash
-
-file="iacta"
-
-# Use head to get the first 3 lines, then tail to get the third line
-
-line=$(head -n 3 "$file" | tail -n 1)
-
-echo "$line"
+echo "$(head -n 3 "$iacta" | tail -n 1)"
